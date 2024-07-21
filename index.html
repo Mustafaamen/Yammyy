@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yammy</title>
+    <link rel="shortcut icon" href="./images/logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="./css/all.min.css">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/stylee.css">
+</head>
+
+<body>
+    <div class="loading position-fixed top-0 bottom-0 start-0 end-0 bg-black  justify-content-center align-items-center">
+        <i class="fa-solid fa-circle-notch fa-spin fa-5x"></i>    </div>
+    <!-- ***********************************start nav*********************************************** -->
+    <div class="said-nav h-100 position-fixed d-flex">
+        <div class="nav-left d-flex flex-column justify-content-between h-100  p-4">
+            <div class="links">
+                <ul class=" overflow-hidden">
+                    <li onclick="showSearchInput()"  id="item1 " class="mb-3 position-relative">Serch</li>
+                    <li onclick="fetchDataForcategory()" class="mb-3 position-relative">Category</li>
+                    <li onclick="getArea()" id="item3 " class="mb-3 position-relative">Area</li>
+                    <li onclick="getIngredients()" id="item4 " class="mb-3 position-relative">Ingredients</li>
+                    <li onclick="showContactUs()" class="mb-3 position-relative">Contact Us</li>
+                </ul>
+            </div>
+            <div class="nav-footer">
+                <div class="icons">
+                    <i class="fa-brands fa-facebook-f me-3"></i>
+                    <i class="fa-brands fa-twitter me-3"></i>
+                    <i class="fa-solid fa-globe me-3"></i>
+                </div>
+                <div class="footer">
+                    <p>
+                        Copyright آ© 2024 Create <br> By Mustafa Elhadad <br>Reserved.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="nav-right d-flex flex-column justify-content-between h-100 text-center py-3 bg-white text-black ">
+<img src="./images/logo.png" alt="">
+<i class="open-close fa-solid fa-bars fa-2x"></i>
+<div>
+    <!-- <i class="fa-brands fa-facebook-f me-3  "></i> -->
+    <i id="facebook" class="fa-brands fa-facebook fs-4 fa-fade d-block p-2"></i>
+                    <i id="twitter" class="fa-brands fa-twitter fs-4  fa-fade"></i>
+</div>
+        </div>
+    </div>
+    <!-- ***********************************end nav*********************************************** -->
+
+   
+    <!-- *********************************** start serch*********************************************** -->
+
+    <div id="searchContainer" class="container w-75">
+        
+    </div>
+    <!-- *********************************** end serch*********************************************** -->
+    <!-- ***********************************start home*********************************************** -->
+
+    <div class="container ">
+        
+        <div id="rowDate" class="row py-4 g-3">
+
+           
+          
+        </div>
+    </div>
+    <!-- ***********************************end home*********************************************** -->
+    
+    <!-- *********************************** start contact *********************************************** -->
+
+  
+    <!-- *********************************** end contact *********************************************** -->
+
+  
+
+    <script src="./js/bootstrap.bundle.min.js"></script>
+    <script src="./js/jquery-3.6.1.min.js"></script>
+    <script src="./js/index.js"></script>
+</body>
+
+</html>
